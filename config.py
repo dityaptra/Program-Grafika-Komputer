@@ -1,24 +1,19 @@
 # config.py
 
-# Ukuran Jendela
+# Ukuran Layar
 WIDTH = 1000
 HEIGHT = 800 
 
-# Grid Logic
-GRID_SIZE = 15  
+# Grid Logic (Untuk skala tampilan)
+GRID_SIZE = 150 
 
-# Warna (BGR format untuk OpenCV)
-BG_COLOR = (255, 255, 255)   # Putih
-DRAW_COLOR = (255, 0, 0)     # Biru
-TEXT_COLOR = (0, 0, 0)       # Hitam
-AXIS_COLOR = (200, 200, 200) # Abu-abu
+# Warna (BGR Format)
+BG_COLOR = (30, 30, 30)      # Gelap
+LINE_COLOR = (0, 255, 255)   # Kuning
 VERTEX_COLOR = (0, 0, 255)   # Merah
+TEXT_COLOR = (255, 255, 255) # Putih
 
-# Step Transformasi
+# Step Transformasi (Kecepatan)
 SCALE_STEP = 0.1
-
-# --- UPDATE DISINI ---
-# Sebelumnya 5, sekarang 1 agar gesernya lebih halus/pendek
-MOVE_STEP = 1  
-
+MOVE_STEP = 0.1
 ROT_STEP = 2
