@@ -1,4 +1,3 @@
-# main.py
 from transform import Transform
 
 if __name__ == "__main__":

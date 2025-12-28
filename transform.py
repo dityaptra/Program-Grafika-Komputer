@@ -1,4 +1,3 @@
-# mode_transform.py
 import cv2
 import numpy as np
 import config as cfg

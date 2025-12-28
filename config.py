@@ -1,5 +1,3 @@
-# config.py
-
 # Ukuran Layar
 WIDTH = 1000
 HEIGHT = 800 
